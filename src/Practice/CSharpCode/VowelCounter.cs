@@ -28,4 +28,3 @@ class VowelCounter
         Console.WriteLine($"Number of vowels: {vowelCount}");
     }
 }
-

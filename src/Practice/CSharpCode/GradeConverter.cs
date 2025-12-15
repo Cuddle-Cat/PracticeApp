@@ -1,6 +1,6 @@
 using System;
 
-class GradeConverter 
+class GradeConverter
 {
     public static void Run()
     {
