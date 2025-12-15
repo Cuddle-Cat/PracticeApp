@@ -13,6 +13,7 @@ class Menu
             Console.WriteLine("3. Run Age Calculator");
             Console.WriteLine("4. Even or Odd Checker");
             Console.WriteLine("5. Max of Three");
+            Console.WriteLine("6. Grade Converter");
             Console.WriteLine("9. Run Vowel Counter");
             Console.Write("Choose an option: ");
 
@@ -47,6 +48,11 @@ class Menu
 
                 case "5":
                     MaxOfThree.Run();
+                    Pause();
+                    break;
+
+                case "6":
+                    GradeConverter.Run();
                     Pause();
                     break;
 
