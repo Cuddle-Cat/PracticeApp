@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 
 class Menu
 {
@@ -17,6 +18,8 @@ class Menu
             Console.WriteLine("7. Menu Program");
             Console.WriteLine("8. Reverse String");
             Console.WriteLine("9. Run Vowel Counter");
+            Console.WriteLine("10. ATM Simulator");
+            Console.WriteLine("11. Class Car"); // spacing
             Console.Write("Choose an option: ");
 
             string? choice = Console.ReadLine();
@@ -70,6 +73,16 @@ class Menu
 
                 case "9":
                     VowelCounter.Run();
+                    Pause();
+                    break;
+
+                case "10":
+                    AtmSimulator.Run();
+                    Pause();
+                    break;
+
+                case "11":
+                    ClassCar.Run();
                     Pause();
                     break;
 
