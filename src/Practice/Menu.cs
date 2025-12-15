@@ -19,7 +19,9 @@ class Menu
             Console.WriteLine("8. Reverse String");
             Console.WriteLine("9. Run Vowel Counter");
             Console.WriteLine("10. ATM Simulator");
-            Console.WriteLine("11. Class Car"); // spacing
+            Console.WriteLine("11. Class Car");
+            Console.WriteLine("12. Bank Account");
+            Console.WriteLine("13. Ticket Fine Calculator");
             Console.Write("Choose an option: ");
 
             string? choice = Console.ReadLine();
@@ -83,6 +85,16 @@ class Menu
 
                 case "11":
                     ClassCar.Run();
+                    Pause();
+                    break;
+
+                case "12":
+                    BankAccount.Run();
+                    Pause();
+                    break;
+
+                case "13":
+                    TicketFine.Run();
                     Pause();
                     break;
 
