@@ -14,6 +14,8 @@ class Menu
             Console.WriteLine("4. Even or Odd Checker");
             Console.WriteLine("5. Max of Three");
             Console.WriteLine("6. Grade Converter");
+            Console.WriteLine("7. Menu Program");
+            Console.WriteLine("8. Reverse String");
             Console.WriteLine("9. Run Vowel Counter");
             Console.Write("Choose an option: ");
 
@@ -53,6 +55,16 @@ class Menu
 
                 case "6":
                     GradeConverter.Run();
+                    Pause();
+                    break;
+
+                case "7":
+                    MenuProgram.Run();
+                    Pause();
+                    break;
+
+                case "8":
+                    ReverseString.Run();
                     Pause();
                     break;
 
