@@ -8,7 +8,7 @@ class AtmSimulator
         int option = 0;
         while (option != 4)
         {
-            Console.WriteLine("\n1.View Balance");
+            Console.WriteLine("\n1. View Balance");
             Console.WriteLine("2. Deposit");
             Console.WriteLine("3. Withdraw");
             Console.WriteLine("4. Exit");
