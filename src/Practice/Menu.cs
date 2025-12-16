@@ -22,6 +22,7 @@ class Menu
             Console.WriteLine("11. Class Car");
             Console.WriteLine("12. Bank Account");
             Console.WriteLine("13. Ticket Fine Calculator");
+            Console.WriteLine("14. Arrays Practice");
             Console.Write("Choose an option: ");
 
             string? choice = Console.ReadLine();
@@ -95,6 +96,11 @@ class Menu
 
                 case "13":
                     TicketFine.Run();
+                    Pause();
+                    break;
+
+                case "14":
+                    ArraysPractice.Run();
                     Pause();
                     break;
 
