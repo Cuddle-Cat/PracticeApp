@@ -23,6 +23,8 @@ class Menu
             Console.WriteLine("12. Bank Account");
             Console.WriteLine("13. Ticket Fine Calculator");
             Console.WriteLine("14. Arrays Practice");
+            Console.WriteLine("15. File Reader");
+            Console.WriteLine("16. LINQ Challenge");
             Console.Write("Choose an option: ");
 
             string? choice = Console.ReadLine();
@@ -101,6 +103,16 @@ class Menu
 
                 case "14":
                     ArraysPractice.Run();
+                    Pause();
+                    break;
+
+                case "15":
+                    FileReader.Run();
+                    Pause();
+                    break;
+
+                case "16":
+                    LinqChallenge.Run();
                     Pause();
                     break;
 
